@@ -1,0 +1,41 @@
+
+.left {
+  float: left;
+  shape-outside: polygon(0 0, 0 300px, 200px 300px);
+  clip-path: polygon(0 0, 0 300px, 200px 300px);
+  background-color: blue;
+  height: 300px;
+  width: 300px;
+}
+
+
+.right {
+  float: right;
+  shape-outside: polygon(200px 300px, 300px 300px, 300px 0, 0 0);
+  clip-path: polygon(200px 300px, 300px 300px, 300px 0, 0 0);
+  height: 300px;
+  width: 300px;
+}
+.clip{
+    clip-path:circle(50% at  50%);
+    box-shadow: circle 3px 3px 3px #8f8f8f; -3px -3px 3px 8c8c8c;
+    border-radius: 10px
+}
+
+.blend img:first-child {
+  position: absolute;
+  mix-blend-mode: soft-light;
+}
+
+.filter{
+    filter:sepia(50%);
+}
+
+
+
+
+
+
+
+
+
